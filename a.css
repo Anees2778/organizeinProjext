@@ -1,0 +1,293 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.con {
+  width: 75%;
+  margin: auto;
+  background-color: rgb(255, 255, 255);
+}
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+.topnav {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+.ddicon {
+  padding-left: 15px;
+  font-size: 25px;
+  vertical-align: middle;
+  color: #7d7e81;
+  padding-top: 20px;
+}
+.logo {
+  width: 165px;
+  padding: 2px 0px 20px 10px;
+}
+.dropbtn {
+  float: right;
+  background-color: #00a4ee;
+  border: transparent;
+  color: #fff;
+  padding: 8px 20px;
+  border-radius: 5px;
+  margin-top: 15px;
+  margin-right: 12px;
+}
+hr {
+  margin-top: 0px;
+}
+.search-container button {
+  float: right;
+  padding: 10px 16px;
+  background: #00a4ee;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+  color: #fff;
+}
+.search-container button:hover {
+  background: #ccc;
+}
+.search-container {
+  box-shadow: -0.5px -0.5px 0.1pc;
+  width: 320px;
+  margin: auto;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+input[type="text"] {
+  padding: 6px;
+  margin: 4px;
+  font-size: 17px;
+  border: none;
+}
+
+.mainhead {
+  margin: auto;
+  padding: 15px 0px 20px 25px;
+  width: 100%;
+  height: auto;
+  color: #;
+  border: transparent;
+  border-radius: 10px;
+  background: linear-gradient(120deg, #ecb7ff 0%, #ecb7ff 40%, #b7abff 100%);
+}
+h1 {
+  line-height: 1.5;
+}
+h6 {
+  line-height: 40px;
+}
+h3 {
+  padding-top: 60px;
+}
+h3:hover {
+  cursor: pointer;
+}
+/*.......................................... slider......................................................... */
+// CSS code
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, sans-serif;
+}
+
+.image-sliderfade {
+  display: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+/* Slideshow container */
+.container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 20px 15px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  width: 40%;
+  background: rgba(0, 0, 0, 0.7);
+  text-align: left;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: gray;
+  border-radius: 15px;
+  display: inline-block;
+  transition: border-color 1.2s ease;
+}
+
+.active {
+  border-color: #666;
+  width: 45px;
+  background-color: #00a4ec;
+  border: transparent;
+}
+
+/* Animation */
+.fade {
+  -webkit-animation-name: fade-image;
+  -webkit-animation-duration: 3.5s;
+  animation-name: fade-image;
+  animation-duration: 3.5s;
+}
+
+@-webkit-keyframes fade-image {
+  from {
+    opacity: 0.6;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fade-image {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.8;
+  }
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {
+    font-size: 11px;
+  }
+}
+
+.intern {
+  text-align: center;
+}
+img {
+  width: 70%;
+}
+.filters {
+  padding-top: 20px;
+}
+.try {
+  background-color: #d45b5b;
+  align-items: center;
+  text-align: center;
+  padding: 5px 30px;
+}
+h1{
+  font-size: 31px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bold;
+}
+.pics {
+  width: 140px;
+  margin: auto;
+}
+.bas {
+  width: 86px;
+  padding-top: 43px;
+}
+.pic {
+  margin: auto;
+  text-align: center;
+  vertical-align: middle;
+}
+.cat:hover,
+.pics:hover {
+  cursor: pointer;
+}
+.cat {
+  width: 100px;
+  margin: auto;
+}
+
+/* ......................footer................. */
+.footer {
+  width: 100%;
+  background-color: #262626;
+  color: #fff;
+  padding: 30px 0px 15px 0px;
+}
+.line {
+  width: 100%;
+  height: 1.5px;
+  background-color: #fff;
+}
+.foot {
+  padding: 20px 0px 0px 35px;
+}
+li {
+  padding: 6px;
+}
+.playbtn {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 5px 15px;
+  margin: 5px 15px;
+}
+.play {
+  width: 30px;
+}
+.view:hover,
+.footer ul li:hover,
+button {
+  cursor: pointer;
+}
+.ssmedia {
+  color: #fff;
+  padding: 8px;
+  font-size: 20px;
+}
+.ssmedia:hover {
+  background-color: #fff;
+  color: black;
+  text-decoration: none;
+}
+.view {
+  color: #00a4ec;
+  padding-top: 60px;
+}
+.privacy {
+  float: right;
+  color: #fff;
+  padding: 10px 10px;
+}
+@media only screen and (max-width: 600px) {
+  .abc,
+  .privacy,
+  .sicons {
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding-top: 10px;
+  }
+  .privacy {
+    float: none;
+    text-align: center;
+  }
+}
